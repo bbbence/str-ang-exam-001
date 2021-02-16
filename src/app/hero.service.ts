@@ -5,8 +5,8 @@ import { Hero } from './hero';
   providedIn: 'root'
 })
 export class HeroService {
-  getAllHeroes() {
-    throw new Error('Method not implemented.');
+  getAllHeroes(): Hero[] {
+    return this.list;
   }
 
 
